@@ -2,11 +2,12 @@ import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { MyMap1, MyMap2, MyMap3, MyMap4 } from './MyMaps';
+import "../styles.css";
 
 
 const MyTabs = () => {
     
-return  <Tabs>
+return  <Tabs className= "tab">
         <TabList>
             <Tab>Zu Hause</Tab>
             <Tab>Lieblingsstadt in Europa</Tab>
